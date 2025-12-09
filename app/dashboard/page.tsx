@@ -136,7 +136,8 @@ export default function DashboardPage() {
                         ! 👋
                     </h1>
                     <p className="text-gray-600">
-                        Here's what's happening with your boards today.
+                        Welcome to your dashboard! Here&apos;s what&apos;s
+                        happening.
                     </p>
                 </div>
 

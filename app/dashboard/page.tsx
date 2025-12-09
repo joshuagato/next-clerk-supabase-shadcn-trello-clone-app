@@ -26,7 +26,6 @@ import {
     Filter,
     Grid3x3,
     List,
-    Loader2,
     Plus,
     Rocket,
     Search,

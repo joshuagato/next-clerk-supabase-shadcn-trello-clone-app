@@ -53,7 +53,7 @@ function DroppableColumn({
 }: {
     column: ColumnWithTasks;
     children: React.ReactNode;
-    onCreateTask: (taskData: Omit<Task, "id" | "created_at">) => Promise<void>;
+    onCreateTask: (taskData: ) => Promise<void>;
     onEditColumn: (column: ColumnWithTasks) => void;
 }) {
     const { setNodeRef, isOver } = useDroppable({ id: column.id });
